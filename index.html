@@ -1,0 +1,172 @@
+<html>
+<head> 
+
+<title> ShopDecor </title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script1.js"></script>
+<link rel="stylesheet" type="text/css" href="css/decor.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+  <h1><i>Woody</i></h1>
+</header>
+<nav>
+
+		<div class="menu-icon">
+		<i class="fa fa-bars fa-2x"></i>
+	</div>
+	<ul class="parent">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="indoor.html">Indoor</a></li>
+	<li><a href="outdoor.html">Outdoor</a></li>
+	
+	</ul>
+	</nav>
+	<div class="about" style="text-align:center">
+	<article>
+	<content>
+	<p>Woody offers a unique selection of stylish, contemporary, and chic furniture online.<br> Our online furniture range includes sofa sets, beds, dining tables, chaise lounges, study tables, computer tables and lots more.<br> All our wooden furniture designs are available online.<br> On our portal, you can browse as many furniture designs across categories as you like and stay updated about new and contemporary designs!
+	</p>
+	<p>The furniture you choose for a room can make or break it.<br> The furniture designs you choose are what determine the personality of the room and say something about the inhabitants of the house.<br> Modern furniture design is all about finding the right balance between design and functionality, while traditional designs have evolved over time, reflecting the fashion fads of each period.<br> Whether you are on the lookout for modern designs or more traditional styles, there are some features to keep an eye out for!!</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	</content>
+	</article>
+	</div>
+	<style>
+#lf,#sf {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+	width:40%;
+    background-color: #99ccff;
+    color: #2F4F4F;
+    border: solid 1px #a6d8a8;
+    margin: auto;
+	display:none;
+	opacity:0.7;
+}
+.log ,.sub{
+border:none;
+background:#99ccff;
+font-size:22px;
+font-family:serif;
+color:2F4F4F;
+cursor:pointer
+}
+</style>
+	<div class="login">
+	<span><button onclick="myFunction()" style="border:none;background:#99ccff;font-size:25px;font-family:serif;color:white;cursor:pointer">Login</button></span>
+	</div>
+	
+<div id="lf" class="modal">
+
+  
+  <form action="#">
+    
+    
+
+    <div class="container">
+	<h3>Login</h3>
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+	  <br>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+	  <br>
+	  <br>
+      <button class="log" type="submit"><b>Login</b></button>
+	  
+      
+    </div>
+
+    
+  </form>
+</div>
+<script>
+function myFunction() {
+    document.getElementById("lf").style.display = "block";
+}
+</script>
+
+
+
+
+	<div class="wish">
+	<span><i class="fa fa-heart-o" style="font-size:38px;color:white"></i></span>
+	</div>
+	<div class="cart">
+	<span><a href="#"><i class="fa fa-shopping-cart" style="font-size:38px;color:white"></i></a></span>
+	</div>
+	<div class="signup">
+	<span><button onclick="myF()" style="border:none;background:#99ccff;font-size:25px;font-family:serif;color:white;cursor:pointer">Sign Up</button></span>
+	</div>
+	
+	<div id="sf" >
+  
+  <form action="#">
+    
+    
+
+    <div class="container">
+	<h3>Sign Up</h3>
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+	  <br>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+	  <br>
+	  <label for="psw"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Re-enter Password" name="psw" required>
+	  <br>
+	  <br>
+	  <p style="font-size:15px">By clicking on Submit, you agree to our <a href="#">Terms and Policies</a></p>
+	  <br>
+      <button class="sub" type="submit"><b>Submit</b></button>
+      
+    </div>
+
+    
+  </form>
+</div>
+<script>
+function myF() {
+    document.getElementById("sf").style.display = "block";
+}
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			  crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+	$(".menu-icon").on("click", function(){
+		$("nav ul").toggleClass("showing");
+	});
+}); 
+</script>
+<footer>
+
+<div class="contact">
+<h5 style="text-align:center;font-size:15px">Contact Us</h5>
+<ul class="cu">
+<li><a href="#"><img src="assets/facebook1.png" height="40 px" width="40 px"></a></li>
+<li><a href="#"><img src="assets/googleplus.png" height="40 px" width="40 px"></a></li>
+<li><a href="#"><img src="assets/instalogo.jpg" height="40 px" width="40 px"></a></li>
+<li><a href="#"><img src="assets/twitterlogo.jpg" height="40 px" width="40 px"></a></li>
+</ul>
+<br>
+<p style="text-align:center;margin-bottom:15px"><b>Contact No.: +91 123456890</b></p>
+</div>
+<footer>
+</body>
+</html>
