@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Woody</h1>
+      <ul class="parent">
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <div class="dropdown">
+            <p class="dropbtn">Products</p>
+            <div class="dropdown-content">
+              <a href="indoor.html">Indoor</a>
+              <a href="outdoor.html">Outdoor</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <p class="dropbtn">Register</p>
+            <div class="dropdown-content">
+              <a href="login.html">Login</a>
+              <a href="signup.html">signUp</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="ctn login">
+        <h2>Login</h2>
+        <form action="#">
+          <label for="uname">Username</label>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="uname"
+            required
+          />
+          <label for="psw">Password</label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+          <button class="log" type="submit">Login</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

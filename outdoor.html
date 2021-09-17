@@ -1,130 +1,156 @@
 <html>
-<head> 
-
-<title> Outdoor </title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="script1.js"></script>
-<link href="css/outdoor.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-<header>
-  <h1><i>Amalgam</i></h1>
-</header>
-<nav>
-
-		<div class="menu-icon">
-		<i class="fa fa-bars fa-2x"></i>
-	</div>
-	<ul class="parent">
-	<li><a href="index.html">Home</a></li>
-	<li><a href="outdoor.html">Outdoor</a></li>
-	<li><a href="indoor.html">Indoor</a></li>
-	
-	</ul>
-	</nav>
-	
-	<div class="wish">
-	<span><i class="fa fa-heart-o" style="font-size:38px;color:white"></i></span>
-	</div>
-	<div class="cart">
-	<span><a href="#"><i class="fa fa-shopping-cart" style="font-size:38px;color:white"></i></a></span>
-	</div>
-	
-	<table>
-	<tr>
-	<td>
-	<a href="#" target="_self"><img src="assets/out1.jpg" ></a>
-	<div class="text">
-	<section><p style="padding-top:5px"><b>$2000</b></p></section>
-	<section><button type="button" class="butt"><a href="#" style="text-decoration:none">Add To Cart</a></button></section>
-	<section><button type="button" class="butt"><a href="#" style="text-decoration:none">Add To Wishlist</a></button></section>
-	</div>
-	</td>
-	<td>
-	<a href="#" target="_self"><img src="assets/out2.jpg"></a>
-	<div class="text">
-	<section><p style="padding-top:5px"><b>$2500</b></p></section>
-	<section><button type="button" class="butt"><a href="#" style="text-decoration:none">Add To Cart</a></button></section>
-	<section><button type="button" class="butt"><a href="#" style="text-decoration:none">Add To Wishlist</a></button></section>
-	</div>
-	</td>
-	</tr>
-	<tr>
-	<td>
-	<a href="#" target="_self"><img src="assets/out3.jpg" ></a>
-	<div class="text">
-	<section><p style="padding-top:5px"><b>$1900</b></p></section>
-	<section><button type="button" class="butt"><a href="#" style="text-decoration:none">Add To Cart</a></button></section>
-	<section><button type="button" class="butt"><a href="#" style="text-decoration:none">Add To Wishlist</a></button></section>
-	</div>
-	</td>
-	
-	<td>
-	<a href="#" target="_self"><img src="assets/out4.jpg" ></a>
-	<div class="text">
-	<section><p style="padding-top:5px"><b>$1500</b></p></section>
-	<section><button type="button" class="butt"><a href="#" style="text-decoration:none">Add To Cart</a></button></section>
-	<section><button type="button" class="butt"><a href="#" style="text-decoration:none">Add To Wishlist</a></button></section>
-	</div>
-	</td>
-	</tr>
-	<tr>
-	<td>
-	<a href="#" target="_self"><img src="assets/out5.jpg" ></a>
-	<div class="text">
-	<section><p style="padding-top:5px"><b>$1830</b></p></section>
-	<section><button type="button" class="butt"><a href="#" style="text-decoration:none">Add To Cart</a></button></section>
-	<section><button type="button" class="butt"><a href="#" style="text-decoration:none">Add To Wishlist</a></button></section>
-	</div>
-	</td>
-	<td>
-	<a href="#" target="_self"><img src="assets/out6.jpg" ></a>
-	<div class="text">
-	<section><p style="padding-top:5px"><b>$1480</b></p></section>
-	<section><button type="button" class="butt"><a href="#" style="text-decoration:none">Add To Cart</a></button></section>
-	<section><button type="button" class="butt"><a href="#" style="text-decoration:none">Add To Wishlist</a></button></section>
-	</div>
-	</td>
-	</tr>
-	</table>
-	
-	<script src="https://code.jquery.com/jquery-3.3.1.js"
-			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-			  crossorigin="anonymous"></script>
-<script>
-$(document).ready(function(){
-	$(".menu-icon").on("click", function(){
-		$("nav ul").toggleClass("showing");
-	});
-}); 
-</script>
-<script>
-    $("document").ready(function(){
-            $('ul.parent > li').hover(function(){
-                $(this).find('ul.child').show(1400);
-                },
-                function(){
-                $(this).find('ul.child').hide(1400);
-                                                      
-            });
-                            
-                            
-        });
-</script>
-<footer>
-
-<div class="contact">
-<h5 style="text-align:center;font-size:15px">Contact Us</h5>
-<ul class="cu">
-<li><a href="#"><img src="assets/facebook1.png" height="40 px" width="40 px"></a></li>
-<li><a href="#"><img src="assets/googleplus.png" height="40 px" width="40 px"></a></li>
-<li><a href="#"><img src="assets/instalogo.jpg" height="40 px" width="40 px"></a></li>
-<li><a href="#"><img src="assets/twitterlogo.jpg" height="40 px" width="40 px"></a></li>
-</ul>
-<br>
-<p style="text-align:center;margin-bottom:15px"><b>Contact No.: +91 1234567890</b></p>
-</div>
-<footer>
-</body>
+  <head>
+    <link href="css/outdoor.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Woody</h1>
+      <ul class="parent">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="indoor.html">Indoor</a></li>
+        <!-- <li><a href="login.html">SignOut</a></li> -->
+      </ul>
+    </nav>
+    <main>
+      <div>
+        <img src="assets/in1.jpg" />
+        <div class="text">
+          <section>
+            <p style="padding-top: 5px"><b>$2000</b></p>
+          </section>
+          <section>
+            <button type="button" class="butt">
+              <a href="#" style="text-decoration: none">Add To Cart</a>
+            </button>
+          </section>
+          <section>
+            <button type="button" class="butt">
+              <a href="#" style="text-decoration: none">Add To Wishlist</a>
+            </button>
+          </section>
+        </div>
+      </div>
+      <div>
+        <img src="assets/out1.jpg" />
+        <div class="text">
+          <section>
+            <p style="padding-top: 5px"><b>$2500</b></p>
+          </section>
+          <section>
+            <button type="button" class="butt">
+              <a href="#" style="text-decoration: none">Add To Cart</a>
+            </button>
+          </section>
+          <section>
+            <button type="button" class="butt">
+              <a href="#" style="text-decoration: none">Add To Wishlist</a>
+            </button>
+          </section>
+        </div>
+      </div>
+      <div>
+        <img src="assets/out2.jpg" />
+        <div class="text">
+          <section>
+            <p style="padding-top: 5px"><b>$1900</b></p>
+          </section>
+          <section>
+            <button type="button" class="butt">
+              <a href="#" style="text-decoration: none">Add To Cart</a>
+            </button>
+          </section>
+          <section>
+            <button type="button" class="butt">
+              <a href="#" style="text-decoration: none">Add To Wishlist</a>
+            </button>
+          </section>
+        </div>
+      </div>
+      <div>
+        <img src="assets/out3.jpg" />
+        <div class="text">
+          <section>
+            <p style="padding-top: 5px"><b>$1500</b></p>
+          </section>
+          <section>
+            <button type="button" class="butt">
+              <a href="#" style="text-decoration: none">Add To Cart</a>
+            </button>
+          </section>
+          <section>
+            <button type="button" class="butt">
+              <a href="#" style="text-decoration: none">Add To Wishlist</a>
+            </button>
+          </section>
+        </div>
+      </div>
+      <div>
+        <img src="assets/out4.jpg" />
+        <div class="text">
+          <section>
+            <p style="padding-top: 5px"><b>$1830</b></p>
+          </section>
+          <section>
+            <button type="button" class="butt">
+              <a href="#" style="text-decoration: none">Add To Cart</a>
+            </button>
+          </section>
+          <section>
+            <button type="button" class="butt">
+              <a href="#" style="text-decoration: none">Add To Wishlist</a>
+            </button>
+          </section>
+        </div>
+      </div>
+      <div>
+        <img src="assets/out5.jpg" />
+        <div class="text">
+          <section>
+            <p style="padding-top: 5px"><b>$1480</b></p>
+          </section>
+          <section>
+            <button type="button" class="butt">
+              <a href="#" style="text-decoration: none">Add To Cart</a>
+            </button>
+          </section>
+          <section>
+            <button type="button" class="butt">
+              <a href="#" style="text-decoration: none">Add To Wishlist</a>
+            </button>
+          </section>
+        </div>
+      </div>
+    </main>
+    <div>
+      <div class="contact">
+        <h5 style="text-align: center; font-size: 15px">Contact Us</h5>
+        <ul class="cu">
+          <li>
+            <a href="#"
+              ><img src="assets/facebook1.png" height="40 px" width="40 px"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="assets/googleplus.png" height="40 px" width="40 px"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="assets/instalogo.jpg" height="40 px" width="40 px"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="assets/twitterlogo.jpg" height="40 px" width="40 px"
+            /></a>
+          </li>
+        </ul>
+        <br />
+        <p style="text-align: center; margin-bottom: 15px">
+          <b>Contact No.: +91 1234567890</b>
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
