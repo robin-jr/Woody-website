@@ -116,3 +116,12 @@ button {
 .dropdown:hover .dropbtn {
   color: #3e8e41;
 }
+.radio {
+  display: flex;
+}
+.radio label {
+  margin: 0.8rem;
+}
+.radio input {
+  margin-top: 0;
+}
