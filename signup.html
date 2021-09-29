@@ -44,7 +44,12 @@
                 name="uname"
                 required
               />
+              <label for="email">Enter your email:</label>
+              <input type="email" id="email" name="email" required> 
               <br />
+              <label for="phone">Enter your phone number:</label>
+              <input type="tel" id="phone" name="phone" placeholder="0000000000" pattern="[0-9]{10}"> 
+              <br/>
               <label for="psw">Password</label>
               <input
                 type="password"
@@ -63,13 +68,17 @@
               />
               <label for="">Gender</label>
               <div class="radio">
-                <input type="radio" id="html" name="fav_language" value="HTML">
+                <input type="radio" id="html" name="fav_language" value="HTML" checked="true" >
                 <label for="html">Male</label>
                 <input type="radio" id="css" name="fav_language" value="CSS">
                 <label for="css">Female</label>
                 <input type="radio" id="javascript" name="fav_language" value="JavaScript">
                 <label for="javascript">others</label>
             </div>
+
+  <label for="bdaymonth">Date of birth:</label>
+  <input type="date" id="bdaymonth" name="bdaymonth" required>
+  <br/>
             <div>
                 <input type="checkbox" required style="margin-right: .5rem;">
                 <label for="age1">Accept terms & condition</label>
